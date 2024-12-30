@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -19,4 +20,4 @@ export default {
     'react-pdf__Page__svg',
     // Add more classes if necessary
   ],
-}
+};
