@@ -1,0 +1,44 @@
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+    /* Set a minimum width to prevent shrinking */
+  height: 100%;
+  overflow: hidden;
+}
+
+.react-pdf__Document {
+  display: block;
+  width: 100%;
+  min-width: 730px;
+  max-width: 100%;   /* Set a minimum width */
+  height: auto;
+  overflow: hidden; 
+  margin: 0 auto; /* Prevent overflow */
+}
+
+.react-pdf__Page {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+   /* Ensure it doesn't shrink below a certain width */
+     height: auto;
+  box-sizing: border-box;  /* Prevent content from spilling out */
+}
+
+.react-pdf__Page__canvas {
+  display: block;
+  width: 100%;
+/* Prevent canvas from shrinking */
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;  /* Ensure it doesn't cause overflow */
+}
+pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  overflow: hidden; }/* Prevents unwanted horizontal scrolling */
